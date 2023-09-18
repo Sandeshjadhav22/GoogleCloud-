@@ -8,7 +8,7 @@ const Table = () => {
         <table>
             <thead class="thead">
                 <tr>
-                    <th class="thclass">#</th>
+                    <th class="thclass">Sr.No</th>
                     <th class="thclass">Name</th>
                     <th class="thclass">Due Date</th>
                     <th class="thclass">Status</th>
