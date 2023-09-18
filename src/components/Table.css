@@ -17,6 +17,7 @@
   font-size: 0.9rem;
   background-color: rgb(154, 196, 251);
   overflow-x: auto; /* Enable horizontal scrolling on small screens */
+  z-index: 1;
 }
 
 table {
@@ -28,22 +29,25 @@ table {
   border: 2px solid black;
   width: 100%; /* Make the table 100% width of its container */
   max-width: 100%; /* Ensure the table doesn't overflow its container */
+  margin: 130px 20px 80px 20px ;
 }
 
 .thead {
+
   box-shadow: 0 5px 10px rgb(170, 151, 151);
 }
 
 .thclass {
-  padding: 1rem 1rem; /* Adjust the padding for smaller screens */
+  padding: 2rem 9rem; /* Adjust the padding for smaller screens */
   text-transform: uppercase;
   letter-spacing: 0.1rem;
-  font-size: 0.7rem;
-  font-weight: 950;
+  font-size: 1rem;
+  color: rgb(112, 112, 241);
+  font-weight: 600;
 }
 
 .tdclass {
-  padding: 1rem 1rem; /* Adjust the padding for smaller screens */
+  padding: 2rem 6rem; /* Adjust the padding for smaller screens */
   font-weight: 500;
 }
 
@@ -79,7 +83,7 @@ table tr:nth-child(even) {
 @media (max-width: 768px) {
   .thclass,
   .tdclass {
-    padding: 0.5rem; /* Adjust the padding for smaller screens */
+    padding: 1rem; /* Adjust the padding for smaller screens */
     font-size: 0.6rem; /* Adjust the font size for smaller screens */
   }
 }
@@ -87,7 +91,11 @@ table tr:nth-child(even) {
 @media (max-width: 500px) {
   .thclass,
   .tdclass {
-    padding: 0.2rem; /* Further adjust the padding for even smaller screens */
+    margin-top: 80px;
+    padding: 0.9rem; /* Further adjust the padding for even smaller screens */
     font-size: 0.5rem; /* Further adjust the font size for even smaller screens */
   }
+  /* table{
+    margin-right:200px ;
+  } */
 }
