@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.tableinfo {
+  font-family: 'Poppins', sans-serif;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 0.9rem;
+  background-color: rgb(154, 196, 251);
+  overflow-x: auto; /* Enable horizontal scrolling on small screens */
+}
+
+table {
+  border-collapse: collapse;
+  box-shadow: 0 5px 10px rgb(164, 145, 145);
+  background-color: rgba(253, 247, 247, 0.969);
+  text-align: left;
+  overflow: hidden;
+  border: 2px solid black;
+  width: 100%; /* Make the table 100% width of its container */
+  max-width: 100%; /* Ensure the table doesn't overflow its container */
+}
+
+.thead {
+  box-shadow: 0 5px 10px rgb(170, 151, 151);
+}
+
+.thclass {
+  padding: 1rem 1rem; /* Adjust the padding for smaller screens */
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 0.7rem;
+  font-weight: 950;
+}
+
+.tdclass {
+  padding: 1rem 1rem; /* Adjust the padding for smaller screens */
+  font-weight: 500;
+}
+
+.status {
+  border-radius: 8px;
+  padding: 0.2rem 1rem;
+  text-align: center;
+}
+
+.pending {
+  background-color: rgb(248, 248, 145);
+  color: rgba(255, 255, 0, 0.539);
+  font-weight: 700;
+}
+
+.completed {
+  background-color: rgb(145, 248, 164);
+  color: rgba(15, 81, 3, 0.539);
+  font-weight: 700;
+}
+
+.notcompleted {
+  background-color: rgb(250, 168, 179);
+  color: rgba(112, 6, 29, 0.364);
+  font-weight: 700;
+}
+
+table tr:nth-child(even) {
+  background-color: rgba(128, 128, 128, 0.299);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .thclass,
+  .tdclass {
+    padding: 0.5rem; /* Adjust the padding for smaller screens */
+    font-size: 0.6rem; /* Adjust the font size for smaller screens */
+  }
+}
+
+@media (max-width: 500px) {
+  .thclass,
+  .tdclass {
+    padding: 0.2rem; /* Further adjust the padding for even smaller screens */
+    font-size: 0.5rem; /* Further adjust the font size for even smaller screens */
+  }
+}
