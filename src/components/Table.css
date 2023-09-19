@@ -19,19 +19,30 @@
   overflow-x: auto; /* Enable horizontal scrolling on small screens */
   z-index: 1;
 }
-h1{
-  margin-top: 120px;
+.Texthead,h1{
+  margin-top: 55px;
   justify-content: center;
   font-size: 2rem;
   text-align: center;
+  font-weight: 600;
   color: #0057e7;
 }
 .Para{
   justify-content: center;
   text-align: center;
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 800;
   font-size: 1.2rem;
+}
+.input-group{
+  height: 70px;
+  padding: 0 6rem 0 6rem;
+
+}
+.form-control{
+  margin-top: 1rem;
+  padding-left: 2rem;
+  border-radius: 25px 25px 25px 25px;
 }
 
 table {
