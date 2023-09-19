@@ -16,9 +16,9 @@ body {
   }
   
   .logo {
-    height: 85%;
-    width: 35%;
-    padding: 10px 0 0 0px;
+    height: 95%;
+    width: 45%;
+    padding: 8px 0 10 0px;
   }
   
   .social-icon {
@@ -39,9 +39,9 @@ body {
   
   @media only screen and (max-width: 665px) {
     .logo {
-      height: 80%;
+      height: 90%;
       width: 80%;
-      padding-top: 8px;
+      padding-top: px;
     }
     nav {
       padding: 20px;
