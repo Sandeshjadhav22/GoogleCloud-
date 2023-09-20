@@ -41,7 +41,7 @@ const Table = () => {
                 <tr>
                     <th class="thclass">Sr.No</th>
                     <th class="thclass">Name</th>
-                    <th class="thclass">Courses</th>
+                    <th class="thclass">Course</th>
                     <th class="thclass">skill</th>
                     <th class="thclass">Gen Ai</th>
                     <th class="thclass">Due Date</th>
