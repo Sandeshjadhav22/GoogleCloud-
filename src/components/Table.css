@@ -63,7 +63,7 @@ table {
 }
 
 .thclass {
-  padding: 1rem 5rem; /* Adjust the padding for smaller screens */
+  padding: 1rem 3rem; /* Adjust the padding for smaller screens */
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   font-size: 1.1rem;
@@ -72,7 +72,7 @@ table {
 }
 
 .tdclass {
-  padding: 1rem 5rem; /* Adjust the padding for smaller screens */
+  padding: 1rem 3rem; /* Adjust the padding for smaller screens */
   font-weight: 500;
 }
 
@@ -105,7 +105,7 @@ table tr:nth-child(even) {
 }
 
 /* Responsive Styles */
-@media (max-width: 768px) {
+@media (max-width: 1336px) {
   .thclass,
   .tdclass {
     padding: 1rem; /* Adjust the padding for smaller screens */
@@ -113,15 +113,119 @@ table tr:nth-child(even) {
   }
    
 }
+@media (max-width: 705px) and (min-width:614px) {
+  
+  table{  
+   margin: 30px 80px 60px 60px;
+   position: relative;
+   right: 17px;
+ }  
+}
+@media (max-width: 614px) and (min-width:567px) {
+  
+  .thclass,
+  .tdclass {
+    padding: 0.5rem; /* Adjust the padding for smaller screens */
+    font-size: 0.6rem; /* Adjust the font size for smaller screens */
+  }  
+}
 
-@media (max-width: 500px) {
+
+@media (max-width: 565px) and (min-width : 494px){
   .thclass,
   .tdclass {
     margin-top: 10px;
-    padding: 2rem 2rem 2rem 1rem;/* Further adjust the padding for even smaller screens */
-    font-size: 0.6rem; /* Further adjust the font size for even smaller screens */
+    padding:  0.3rem;
+    font-size: 0.6rem; 
   }
    table{  
-    margin: 30px 0px 60px 20px;
+    margin: 30px 80px 60px 60px;
+    position: relative;
+    left: 17px;
   }  
+}
+
+@media (max-width: 494px) and (min-width:446px) {
+  
+  .thclass,
+  .tdclass {
+    margin-top: 10px;
+    padding:  0.25rem;
+    font-size: 0.6rem; 
+  }
+   table{  
+    margin: 30px 80px 60px 60px;
+    position: relative;
+    left: 10px;
+  }  
+}
+@media (max-width: 446px) and (min-width:427px) {
+  .thclass,
+  .tdclass {
+    margin-top: 10px;
+    padding:  0.2rem;
+    font-size: 0.6rem; 
+  }
+   table{  
+    margin: 30px 80px 60px 60px;
+    position: relative;
+    right: 20px;
+  }
+     
+}
+@media (max-width: 427px) and (min-width:404px) {
+  .thclass,
+  .tdclass {
+    margin-top: 10px;
+    padding:  0.2rem;
+    font-size: 0.6rem; 
+  }
+   table{  
+    margin: 30px 80px 60px 60px;
+    position: relative;
+    right: 20px;
+  }   
+}
+@media  (max-width: 404px) and (min-width:376px){
+  .thclass,
+  .tdclass {
+    margin-top: 10px;
+    padding:  0.16rem;
+    font-size: 0.6rem; 
+  }
+  table{  
+    margin: 30px 80px 60px 60px;
+    position: relative;
+    right: 20px;
+  }  
+}
+@media  (max-width: 376px) and (min-width:300px) {
+  .tdclass {
+    margin-top: 10px;
+    padding:  0.1rem;
+    font-size: 0.5rem; 
+    align-items: center;
+  }
+  .thclass{
+    font-size: 0.4rem; 
+    margin-top: 10px;
+    padding:  0.2rem;
+    align-items: center;  
+ }
+  table{  
+    margin: 0px 80px 60px 60px;
+    position: relative;
+    right: 20px;
+  } 
+  .form-control{
+    margin-top: 1rem;
+    padding-left: 1rem;
+    border-radius: 25px 25px 25px 25px;
+    height: 40%;
+    width: 45%;
+    } 
+  .form-control::placeholder{
+    font-size: 12px;
+    color: rgb(166, 166, 166);
+  }
 }
